@@ -11,6 +11,7 @@ class LinkedList{
     LinkedList();
     ~LinkedList();
     void add(int);
+    void add2(int);
     void remove(int);
     void print();
     void reverse();

@@ -7,13 +7,13 @@ int main(){
 	
 	LinkedList *list = new LinkedList();
 
-	list->add(4);
-	list->add(5);
-	list->add(2);
-	list->add(1);
-	list->add(8);
+	list->add2(4);
+	list->add2(5);
+	list->add2(2);
+	list->add2(1);
+	list->add2(8);
 
 	list->print();
-
+	list->reverse();
 	return 0;
 }
